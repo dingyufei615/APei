@@ -6,6 +6,7 @@ import lombok.Data;
 public class ResponseMsg {
 
     private boolean success;
+    private String[] data;
     private String message;
     private String event;
     private String robot_wxid;
@@ -13,7 +14,7 @@ public class ResponseMsg {
     private String member_wxid;
     private String member_name;
     private String group_wxid;
-    private Msg msg;
+    private String msg;
 
 
 }
